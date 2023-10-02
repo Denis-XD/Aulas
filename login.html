@@ -1,21 +1,42 @@
 <!DOCTYPE html>
 <html lang="es>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login</title>
-    <link rel="icon" href="imagenes/img1.gif">
-</head>
+    <link rel="icon" href="imagenes/img1.gif" />
+    <link rel="stylesheet" href="estilosLogin.css" />
+  </head>
 <body>
-    <head>
+    <form class="form">
+        <h2 class="form_title">Inicia Sesión</h2>
+        <p class="form_paragraph">¿Aún no tienes una cuenta? <a href="#" class="form_link">Entra aquí</a></p>
+ 
+        <div class="form_container">
+           <div class="form_group">
+                <input type="text" id="name" class="form_input" placeholder=" ">
+                <label for="name" class="form_label">Nombre:</label>
+                <span class="form_line"></span>
+           </div>
+ 
+           <div class="form_group">
+             <input type="text" id="name" class="form_input" placeholder=" ">
+             <label for="user" class="form_label">Usuario:</label>
+             <span class="form_line"></span>
+        </div>
+ 
+        <div class="form_group">
+         <input type="text" id="password" class="form_input" placeholder=" ">
+         <label for="password" class="form_label">Contraseña:</label>
+         <span class="form_line"></span>
+        </div>
+ 
+        <input type="submit" class="form_submit" value="Entrar">
+ 
+     </div>
 
-    </head>
-    <main>
-
-    </main>
-    <footer>
-
-    </footer>
+    </form>
+    
     
 </body>
 </html>
