@@ -1,20 +1,74 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Reserva de Aulas</title>
-    <link rel="icon" href="imagenes/img2.png">
-</head>
-<body>
-    <head>
+    <link rel="icon" href="imagenes/img2.png" />
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Recerva de aulas UMSS</h1>
+    </header>
+    <nav>
+      <div class="logo-usuario">
+        <div class="calendario">
+          <a href="#">Ver calendario</a>
+        </div>
 
-    </head>
+        <h2>Denis Brun</h2>
+        <img src="imagenes/img4.png" alt="" />
+      </div>
+    </nav>
 
-   <footer>
+    <div class="aulas">
+      <figure>
+        <img src="imagenes/im3.png" alt="" />
+      </figure>
+      <figcaption>Imagen 3D de la FCYT</figcaption>
+    </div>
+    <form>
+      <fieldset>
+        <legend>Recerva de aulas:</legend>
+        <label for="ambientes">Ambiente:</label>
+        <select name="ambientes" id="ambientes">
+          <option value="sinambiente">Sin ambiente</option>
+          <option value="dfisica">Departamento de fisica</option>
+          <option value="dbiologia">Departamento de biologia</option>
+          <option value="dquimica">Departamento de quimica</option>
+          <option value="bcentral">Bloque central</option>
+          <option value="dindus">Departamento industrial</option>
+          <option value="eAcademico">Edificio academico</option>
+        </select>
 
-   </footer>
+        <label for="aulas">Aula:</label>
+        <select name="aulas" id="aulas">
+          <option value="607">607</option>
+          <option value="612">612</option>
+          <option value="690">690A</option>
+          <option value="690B">690B</option>
+          <option value="690C">690C</option>
+          <option value="690D">690D</option>
+          <option value="691A">691A</option>
+          <option value="691B">691B</option>
+          <option value="691C">691C</option>
+          <option value="691D">691D</option>
+        </select>
 
-    
-</body>
+        <label for="capacidad">Capacidad:</label>
+        <label id="capacidad">80</label>
+
+        <label for="fecha">Fecha:</label>
+        <input type="date" id="fecha" name="fecha" required />
+
+        <label for="hora">Hora:</label>
+        <input type="time" id="hora" name="hora" required />
+
+        <input type="submit" value="Reservar" />
+      </fieldset>
+    </form>
+
+    <footer>&copy;2023 - WebServer</footer>
+  </body>
 </html>
