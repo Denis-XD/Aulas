@@ -12,10 +12,7 @@ header h1{
     padding: 15px;
     margin: 0 auto;
     text-align: center;
-    font-size: 35px;
-    
-
-
+    font-size: 35px;    
 }
 nav{
     background-color: #ecd6c0;
@@ -52,10 +49,9 @@ nav{
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 .calendario a{
-    text-decoration: none
-}
-.calendario a{
+    text-decoration: none;
     color: #ffffff;
+
 }
 .aulas{
     background-color:#ffffeb;
@@ -77,7 +73,6 @@ fieldset {
     padding: 10px;
     background-color: #f0f0f0;
 }
-
 
 legend {
     font-weight: bold;
@@ -104,7 +99,6 @@ input[type="submit"] {
     letter-spacing: 4px;
     padding: 5px;
     color: #ffffff;
-
     
 }
 input[type="submit"] {
@@ -144,6 +138,16 @@ footer{
   footer{
     font-size: 13px;   
   } 
+  .logo-usuario img{
+    width: 40px;
+    height: 40px;   
+ }
+ .logo-usuario h2{
+    font-size: 10px;   
+ }
+ .calendario{
+    font-size: 10px;
+ }
  
 }
 
